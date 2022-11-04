@@ -1,0 +1,108 @@
+body {
+  margin: 0;
+  font-family: "Roboto";
+}
+.profile-pic {
+  width: 100px;
+  height: 150px;
+  padding: 30px;
+}
+
+.container-pic {
+  display: flex;
+  justify-content: center;
+  background-image: url(img/Blackstar-Banner.jpg);
+}
+
+.espacio {
+  padding-left: 40px;
+}
+
+h1 {
+  background-color: #c4c4c4;
+  text-align: center;
+  color: #005677;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 84.69%;
+  margin-bottom: 200px;
+  margin-top: 0px;
+}
+
+h2 {
+  background-color: #c4c4c4;
+  text-align: left;
+  color: #005677;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 84.69%;
+  padding-left: 32px;
+}
+
+ul {
+  list-style: none;
+}
+
+li span {
+  font-weight: 800;
+}
+
+li span.italic-span {
+  font-style: italic;
+}
+
+footer {
+  background-color: #005677;
+  color: white;
+  text-align: center;
+}
+
+a i {
+  color:white
+}
+
+.button {
+  background: white;
+  border: 1px solid #a5b1c2;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  color: #111111;
+  display: inline-block;
+  margin: 1rem auto;
+  margin-left: 36px;
+  min-width: 180px;
+  overflow: hidden;
+  padding: 15px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: .3s ease-in-out all;
+}
+.button span {
+  position: relative;
+  z-index: 2;
+}
+
+.button:before {
+  background: linear-gradient(transparent 0%, rgba(255,255,255,0.6) 50%, transparent 100%);
+  content:'';
+  height: 200%;
+  position: absolute;
+  right: calc(100% + 20px);
+  top: -55%;
+  transform: rotate(-70deg);
+  transition: .6s ease-in-out right;
+  width: 80px;
+  z-index: 0;
+}
+
+.button:hover:before {
+  right: -100%;
+}
+/* Extra visual styling for buttons on hover - optional */
+.button:hover, button:focus {
+  box-shadow: 0 8px 12px rgba(0,0,0,0.1), inset 0 10px 30px rgba(255,255,255,0.3), inset 0 2px 2px rgba(255,255,255,0.2);
+  color: white;
+}
+
+.button.blue:hover, button.blue:focus { background: #0984e3; border-color: #0984e3; }
