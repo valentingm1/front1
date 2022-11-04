@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    font-family: Roboto;
+}
+
+
+
+div.bkb{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10%;
+}
+
+.bkb span{
+    color: white;
+    padding-left: 16px;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+ul.blackList li {
+    display: inline-flex;
+    color: white;
+    text-align: center;
+    padding: 0 16px 0 16px;
+
+}
+
+
+ul.yellowList li{
+    display: inline-flex;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img.logo{
+    width: 15%;
+    height: 80%;
+}
+
+.icon {
+    background: url('img/actualMfIcon.png');
+    height: 20px;
+    width:20px;
+    display: block;
+    /* Other styles here */
+}
+.sobre {
+    background: url('img/sobre.png');
+    height: 20px;
+    width:20px;
+    display: block;
+    /* Other styles here */
+}
+
+
+.banner-wrapper{
+    position: relative;
+}
+
+.bowlPic{
+    width: 100vw;
+    height: 75vh;
+}
+
+.text-wrapper{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-wrapper h2{
+    font-size: 38px;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 20px;
+    padding: 16px;
+}
+
+.text-wrapper p{
+    padding: 16px;
+    font-size: 20px;
+}
+
+.text-wrapper button{
+    border-radius: 5px;
+    background-color: #F0A83E;
+    color: white;
+    width: 160px;
+    height: 60px;
+    border-width: 0px;
+    padding: 17px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.storeHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.storeHeader h1{
+    color: #3C2313;
+    font-size: 40px;
+}
+
+.pataPic{
+    width: 6%;
+    height: 6%;
+}
+
+ul.storeList{
+    padding-top: 20px;
+}
+
+ul.storeList li{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+}
+
+.storeList li::after {
+    content: "      -       ";
+}
+
+.storeList li:last-child::after {
+    content: "      ";
+}
+
+.cardWrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Card{
+    margin-top: 55px;
+    width: 300px;
+    height: 415px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.Card img{
+    width: 100%;
+    height: 70%;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-container h4{
+    padding-top: 16px;
+}
+
+.card-container p{
+    color: #F0A83E;
+}
+
+.contactWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputContainer{
+    padding: 10px;
+}
+
+.contactWrapper h2{
+    margin-top: 70px;
+    padding: 16px;
+    font-size: 24px;
+    color:#3C2313
+}
+
+.brownInput { 
+    border-width:2px; 
+    border-color:#cccccc; 
+    border-style:solid; 
+    border-radius:15px; 
+    font-size:15px; 
+    color:white; 
+    background-color:#3C2313;
+    padding:20px;
+    width: 25vw;  
+}
+.brownInput:focus { outline:none; }
+
+.clearButton{
+    background-color: #8A8787;
+    border-radius: 15px;
+    padding: 8px;
+    width: 115px;
+    color: white;
+    margin-right: 32px;
+    margin-bottom: 36px;
+    font-size: 18px;
+    border-width: 0px;
+}
+
+.sendButton{
+    background-color: #F0A83E;
+    border-radius: 15px;
+    padding: 8px;
+    width: 115px;
+    color: white;
+    margin-left: 32px;
+    font-size: 18px;
+    border-width: 0px;
+}
+
+.newsletter-bar{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter-bar p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 40px;
+}
+
+.subButton{
+    background-color: #3C2313;
+    border-radius: 15px;
+    padding: 8px;
+    color: white;
+    margin: 6px;
+    font-size: 12px;
+    border-width: 0px;
+
+
+}
+
+.newsletterInput { 
+    border-width:2px; 
+    border-color:#cccccc; 
+    border-style:solid; 
+    border-radius:15px; 
+    font-size:15px; 
+    color:grey; 
+    width: 70%;
+    padding: 6px;
+}
+
+div.input-container{
+    width: 40%;
+}
+
+.main-footer{
+    background-color: #3C2313;
+    height: 270px;
+    padding-top: 30px;
+}
+
+.data-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+
+.data-wrapper p{
+    color: white;
+    font-size: 10px;
+    margin-bottom: 15px;
+
+}
+
+.data-wrapper h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-bkb{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10%;
+    color: white;
+}
