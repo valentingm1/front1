@@ -76,7 +76,7 @@ a i {
   position: relative;
   text-align: center;
   text-decoration: none;
-  transition: .3s ease-in-out all;
+  transition: .1s ease-in-out all;
 }
 .button span {
   position: relative;
@@ -91,7 +91,7 @@ a i {
   right: calc(100% + 20px);
   top: -55%;
   transform: rotate(-70deg);
-  transition: .6s ease-in-out right;
+  transition: .3s ease-in-out right;
   width: 80px;
   z-index: 0;
 }
