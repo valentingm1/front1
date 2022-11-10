@@ -5,108 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Petshop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script type="text/javascript"src="script.js"></script>
+    <title>Document</title>
 </head>
+
+
 <body>
-    <header>
-        <div class="bkb">
-            <span>Grandes ofertas en comederos</span>
-            <ul class="blackList">
-                <li>Español</li>
-                <li>AR$</li>
-            </ul>
-        </div>
-        <nav>
-            <img class="logo" src="img/logo.png" alt="">
-            <ul class="yellowList">
-                <li><span class="icon"></span><a href="">Categorias</a></li>
-                <li><span class="icon"></span><a href="">Nosotros</a></li>
-                <li><span class="icon"></span><a href="">Pets</a></li>
-                <li><span class="icon"></span><a href="">Contactanos</a></li>
-            </ul>
-        </nav>
-    </header>
-     <main>
-        <div class="banner-wrapper">
-            <img src="img/foto1.jpg" alt="Ahora si no me olvidé el alt" class="bowlPic">
-            <div class="text-wrapper">
-                <h2>¡Es un placer tenerte aqui!</h2> <!-- Intercambiable el h1 y el h2 con Productos destacados?? -->
-                <p>Comederos en descuento!</p> 
-                <a href=""><button>COMEDEROS</button></a>
+    <h1 style="color:black; position: absolute; bottom: 80%;">PUTO EL QUE LEE</h1>
+    <div class="card-swiper">
+        <div class="card-groups">
+            <div class="card-group" data-index="0" data-status="active">
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card "></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
             </div>
-           
-        </div>
-        <div>
-            <div class="storeHeader">
-                <img src="img/pataAmarilla.png" alt="Ahora si no me olvidé el alt p2" class="pataPic">
-                <h1>Productos destacados</h1> <!-- El otro coso que creo que se puede cambiar -->
-                    <ul class="storeList">
-                        <li>Comederos</li>
-                        <li>Accesorios</li>
-                        <li>Comida</li>
-                    </ul>
+            <div class="card-group" data-index="1" data-status="unknown">
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card "></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
             </div>
-        <div class="cardWrapper">
-            <div class="Card">
-                <a href=""><img src="img/jugueteChurrasco.png" alt="" width="" height=""></a>
-                <div class="card-container">
-                    <h4>Juguete Churrasco</h4>
-                    <p>$150</p>
-                </div>
-            </div>
-            <div class="Card">
-                <a href=""><img src="img/jugueteHuesito.png" alt="" width="" height=""></a>
-                <div class="card-container">
-                    <h4>Juguete Huesito</h4>
-                    <p>$650</p>
-                </div>
-            </div>
-            <div class="Card">
-                <a href=""><img src="img/riquelme.png" alt="" width="" height=""></a>
-                <div class="card-container">
-                    <h4>Riquelme</h4>
-                    <p>Invaluable</p>
-                </div>
+            <div class="card-group" data-index="2" data-status="unknown">
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
+            <div class="little-card card "></div>
+            <div class="big-card card"></div>
+            <div class="little-card card"></div>
+            <div class="big-card card"></div>
             </div>
         </div>
-            <div class="contactWrapper">
-                <h2>Contáctanos</h2>
-                <div class="inputContainer"><input placeholder="Nombre y apellido" class="brownInput"></div>
-                <div class="inputContainer"><input placeholder="Correo" class="brownInput"></div>
-                <div class="inputContainer"><input placeholder="Telefono" class="brownInput"></div>
-                <div class="button-container">
-                    <button class="clearButton">Resetear</button>
-                    <button class="sendButton">Enviar</button>
-                </div>
-            </div>
+        <div class="card-swipper-buttons">
+            <button id="hate-button" onclick="handleHateClick()">
+                <i class="fa-solid fa-x"></i>
+            </button>
+            <button id="love-button" onclick="handleLoveClick()">
+                <i class="fa-solid fa-heart"></i>
+            </button>
         </div>
-    </main>
-     <footer>
-        <div class="newsletter-bar">
-            <div class="container2">
-                <img src="img/sobre.png" alt="imagen newsletter">
-                <p>Suscríbete para mas novedades</p>
-            </div>
-            <div class="input-container">
-                <input placeholder="Correo" class="newsletterInput">
-                <button class="subButton">Suscribirse</button>
-            </div>
-        </div>
-        <div class="main-footer">
-            <div class="data-wrapper">
-                <div class="mucho-texto">
-                    <h3>Localidad<h3>
-                    <p>Lorem ipsum dolor sit.</p>
-                    <h3>Telefono</h3>
-                    <p>03487 323232</p>
-                    <h3>Correo Electrónico</h3>
-                    <p>lorem@ipsum.dolor</p>
-                </div>
-                <img src="img/brownLogo.png" alt="localidad img">
-            </div>
-        </div>
-        <div class="footer-bkb"><p>Los derechos reservados</p></div>
-    </footer> 
+    </div>
 </body>
+
+
+
+
 </html>
