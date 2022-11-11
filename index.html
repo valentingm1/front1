@@ -5,65 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <script type="text/javascript"src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-
-
 <body>
-    <h1 style="color:black; position: absolute; bottom: 80%;">PUTO EL QUE LEE</h1>
-    <div class="card-swiper">
-        <div class="card-groups">
-            <div class="card-group" data-index="0" data-status="active">
-            <div class="little-card card"></div>
-            <div class="big-card card"></div>
-            <div class="little-card card"></div>
-            <div class="big-card card"></div>
-            <div class="little-card card "></div>
-            <div class="big-card card"></div>
-            <div class="little-card card"></div>
-            <div class="big-card card"></div>
+    <header>
+        <div class="header-container">
+            <div>
+                <img src="img/0d6ee081b34fd55d28d97895d319d671.png" style="height:10vh;">
+                <h1>Pizza<span class="red">&</span><span class="white">Front</span></h1>
             </div>
-            <div class="card-group" data-index="1" data-status="unknown">
-            <div class="little-card card"></div>
-            <div class="big-card card"></div>
-            <div class="little-card card"></div>
-            <div class="big-card card"></div>
-            <div class="little-card card "></div>
-            <div class="big-card card"></div>
-            <div class="little-card card"></div>
-            <div class="big-card card"></div>
+            <nav>
+                <ul>
+                        <li>Home</li>
+                        <li>Ranking</li>
+                        <li>Promocion</li>
+                        <li>Contacto</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="delivery" alt="foto de delivery">
+                <p>Envio gratis <strong>comprando</strong> 2 pizzas</p>
             </div>
-            <div class="card-group" data-index="2" data-status="unknown">
-            <div class="little-card card"></div>
-            <div class="big-card card"></div>
-            <div class="little-card card"></div>
-            <div class="big-card card"></div>
-            <div class="little-card card "></div>
-            <div class="big-card card"></div>
-            <div class="little-card card"></div>
-            <div class="big-card card"></div>
+            <div class="right-container">
+                <div class="title-container"><h2>Podio de pizzas</h2></div> 
+                <div class="podio">
+                    <h3>Pizzas top 5</h3>
+                    <ol>
+                        <li>Muzzarella</li>
+                        <li>Hawaiana</li>
+                        <li>Muzzarella J&Morron</li>
+                        <li>Fugazzetta</li>
+                        <li>Calabresa</li>
+                    </ol>
+                </div>
+                <img src="img/cosas.png" alt="cosas cayendo en pizza" class="ingredientes">
             </div>
         </div>
-        <div class="card-swipper-buttons">
-            <button id="hate-button" onclick="handleHateClick()">
-                <i class="fa-solid fa-arrow-left"></i>
-            </button>
-            <button id="love-button" onclick="handleLoveClick()">
-                <i class="fa-solid fa-arrow-right"></i>
-            </button>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <nav class="left-footer">
+                <ul>
+                        <li>Home</li>
+                        <li>Ranking</li>
+                        <li>Promocion</li>
+                        <li>Contacto</li>
+                </ul>
+            </nav>
+            <div class="right-footer">
+                <img src="img/0d6ee081b34fd55d28d97895d319d671.png" style="height:15vh">
+                <h3 class="footer-logo">Pizza<span class="red">&</span><span class="white">Front</span></h3>
+            </div>
+            
         </div>
-    </div>
+    </footer>
 </body>
-
-
-
-
 </html>
